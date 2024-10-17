@@ -2,6 +2,7 @@ body {
     margin: 0;
 }
 
+
 nav ul {
     display: flex;
     justify-content: space-evenly;
@@ -9,6 +10,7 @@ nav ul {
     height: 40px;
     list-style-type: none;
     margin-top: 30px;
+
 }
 
 li a {
@@ -16,18 +18,117 @@ li a {
     font-size: 30px;
     color: black;
     text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #377FBF;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#logo {
+    width: 400px;
+
+}
+
+#introduction {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.img-hayao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hayao {
+    border-radius: 100%;
+    width: 70%;
+}
+
+.text-hayao {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+    margin-right: 100px;
+}
+#title-movies {
+    text-align: center;
+}
+.actual-movie1 {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 80px 0;
+}
+
+.actual-movie2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-content: center;
+    margin: 80px 0;
+}
+
+.img-movie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-movie img {
+    width: 80%;
+    border-radius: 50px;
+}
+
+.text-movie {
+    width: 50%;
+    margin-right: 100px;
+}
+
+.text-movie2 {
+    width: 50%;
+    margin-left: 100px;
+}
+.data {
+    padding-left: 0;
+}
+span {
+    background-color: #377FBF;
+    border-radius: 5px;
+    padding: 3px;
+}
+#newsletter {
+    text-align: center;
+    height: 50vh;
+    margin-top: 120px;
 }
 
 h1 {
     font-family: "Englebert", cursive;
     font-weight: 500;
-    font-size: 50px;
+    font-size: 80px;
     font-style: normal;
+    margin-left: 115px;
+    margin-top: 6%;
 }
 
 h2 {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
+    font-size: 2em;
 }
 
 p {
