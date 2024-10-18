@@ -32,7 +32,27 @@ function createForm() {
     news.appendChild(form);
 }
 createForm();
+/* 
+function cookiesWindow() {
+    setTimeout(function () {
+        document.getElementById('cookieConsent').style.display = 'block';
+    }, 2000);
+    setTimeout(function () {
+        document.getElementById("blur-background").style.display = "block";
+    }, 2000);
 
+    document.getElementById('acceptCookies').onclick = function () {
+        document.getElementById('cookieConsent').style.display = 'none';
+        document.getElementById("blur-background").style.display = "none";
+    };
+
+    document.getElementById('rejectCookies').onclick = function () {
+        document.getElementById('cookieConsent').style.display = 'none';
+        document.getElementById("blur-background").style.display = "none";
+    };
+    
+}
+cookiesWindow(); */
 
 
 
