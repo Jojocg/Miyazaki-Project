@@ -13,7 +13,7 @@ nav ul {
 
 }
 
-li a {
+.nav-a {
     font-family: "Englebert", cursive;
     font-size: 30px;
     color: black;
@@ -21,7 +21,7 @@ li a {
 
 }
 
-a:hover {
+.nav-a:hover {
     text-decoration: underline;
     background-color: #377FBF;
 }
@@ -111,9 +111,34 @@ span {
     padding: 3px;
 }
 #newsletter {
-    text-align: center;
-    height: 50vh;
-    margin-top: 120px;
+display: flex;
+align-items: center;
+flex-direction: column;
+height: 50vh;
+margin-top: 120px;
+}
+#form-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.email {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+}
+
+.buttonStyle{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+}
+
+.agreement {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
 }
 
 h1 {
