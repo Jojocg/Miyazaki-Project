@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Universo Miyazaki</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Englebert&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Englebert&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Englebert&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <script src="index.js" defer></script>
 </head>
+
 <body>
     <nav>
         <ul>
@@ -19,10 +22,17 @@
             <li><a href="#newsletter" class="nav-a">Subscríbete</a></li>
         </ul>
     </nav>
-    <header id="header">
-        <img id="logo" src="assets/Studio-Ghibli-Logo.png" alt="">
-        <h1>Universo Miyazaki</h1>
-    </header>
+    <div id="video-wrapper">
+        <div id="video-div">
+            <video autoplay muted loop>
+                <source src="./assets/cinematography_by_studio_ghibli.mp4" type="video/mp4">
+            </video>
+        </div>
+        <header id="header">
+            <img id="logo" src="assets/Studio-Ghibli-Logo.png" alt="">
+            <h1 class="title">Universo Miyazaki</h1>
+        </header>
+    </div>
     <section id="introduction">
         <div class="img-hayao">
             <img id="hayao" src="assets/hayao-miyazaki.jpg" alt="">
@@ -30,26 +40,35 @@
         <div class="text-hayao">
             <h2>Hayao Miyazaki</h2>
             <p>Nacido el 5 de enero de 1941 en Tokio, Japón, es un reconocido director de cine y animación. Su infancia
-        estuvo marcada por su amor por la naturaleza y la lectura, influencias que más tarde se reflejarían en su trabajo
-        cinematográfico.</p>
-            <p>Miyazaki <strong>estudió economía en la Universidad Gakushuin de Tokio</strong>, pero su verdadera pasión siempre fue la animación.
-        Comenzó su carrera en el mundo del cine trabajando como animador en el estudio <strong>Toei Animation.</strong> Durante sus primeros años
-        en la industria, tuvo la oportunidad de colaborar en <strong>películas clásicas</strong> como <em>El Gato con Botas</em> y <em>Heidi, la niña de los
-        Alpes.</em></p>
-            <p>Su talento y visión únicos le llevaron a fundar el reconocido <strong>Studio Ghibli</strong> en 1985, junto a su colega Isao Takahata.
-        Bajo su dirección, el Studio Ghibli produjo algunas de las películas más queridas y aclamadas en la historia de la
-        animación, ganando reconocimiento tanto en Japón como en todo el mundo.</p>
-            <p>A lo largo de su carrera, Miyazaki ha recibido numerosos premios y reconocimientos por su contribución al cine de
-        animación. Entre ellos varios premios Oscar, León de Oro, Oso de Oro, Bafta y muchos más.</p>
-            <p>Sin duda, ha dejado un legado duradero en la industria del cine y la animación, su pasión por contar historias
-        poderosas y su compromiso con la excelencia artística han dejado una huella imborrable en el cine contemporáneo.</p>
+                estuvo marcada por su amor por la naturaleza y la lectura, influencias que más tarde se reflejarían en
+                su trabajo
+                cinematográfico.</p>
+            <p>Miyazaki <strong>estudió economía en la Universidad Gakushuin de Tokio</strong>, pero su verdadera pasión
+                siempre fue la animación.
+                Comenzó su carrera en el mundo del cine trabajando como animador en el estudio <strong>Toei
+                    Animation.</strong> Durante sus primeros años
+                en la industria, tuvo la oportunidad de colaborar en <strong>películas clásicas</strong> como <em>El
+                    Gato con Botas</em> y <em>Heidi, la niña de los
+                    Alpes.</em></p>
+            <p>Su talento y visión únicos le llevaron a fundar el reconocido <strong>Studio Ghibli</strong> en 1985,
+                junto a su colega Isao Takahata.
+                Bajo su dirección, el Studio Ghibli produjo algunas de las películas más queridas y aclamadas en la
+                historia de la
+                animación, ganando reconocimiento tanto en Japón como en todo el mundo.</p>
+            <p>A lo largo de su carrera, Miyazaki ha recibido numerosos premios y reconocimientos por su contribución al
+                cine de
+                animación. Entre ellos varios premios Oscar, León de Oro, Oso de Oro, Bafta y muchos más.</p>
+            <p>Sin duda, ha dejado un legado duradero en la industria del cine y la animación, su pasión por contar
+                historias
+                poderosas y su compromiso con la excelencia artística han dejado una huella imborrable en el cine
+                contemporáneo.</p>
         </div>
     </section>
     <section id="movies">
         <!-- <div></div> -->
         <div class="actual-movie1">
             <div class="img-movie">
-                <img src="./assets/chihiro.png" alt="" >
+                <img src="./assets/chihiro.png" alt="">
             </div>
             <div class="text-movie">
                 <h2>El viaje de Chihiro</h2>
@@ -57,13 +76,19 @@
                     <span>2001</span>
                     <span>124 mins</span>
                 </ul>
-                <p>La mente de Miyazaki partió de la historia de Alicia en el País de las Maravillas para sumarle todo su imaginario,
-                plagado de leyendas y mitos japoneses así como puro talento, para crear este maravilloso cuento sobre Chihiro y su
-                perdición en un reino de siniestras maravillas con forma de balneario. Plagado de criaturas icónicas y escenas
-                asombrosas, cada plano parece un cuadro para colgar en la pared de nuestros más extraños y mejores sueños.</p>
-                <p> Miyazaki ganó con ella el Oso de Oro en el Festival de Berlín, el BAFTA y el Oscar. Pero, más allá de premios, Chihiro (una de las
-                mejores películas de animación de la historia) es la muestra viviente de por qué el trabajo de Miyazaki vivirá para
-                siempre en la imaginación de sus afortunados espectadores.</p>
+                <p>La mente de Miyazaki partió de la historia de Alicia en el País de las Maravillas para sumarle todo
+                    su imaginario,
+                    plagado de leyendas y mitos japoneses así como puro talento, para crear este maravilloso cuento
+                    sobre Chihiro y su
+                    perdición en un reino de siniestras maravillas con forma de balneario. Plagado de criaturas icónicas
+                    y escenas
+                    asombrosas, cada plano parece un cuadro para colgar en la pared de nuestros más extraños y mejores
+                    sueños.</p>
+                <p> Miyazaki ganó con ella el Oso de Oro en el Festival de Berlín, el BAFTA y el Oscar. Pero, más allá
+                    de premios, Chihiro (una de las
+                    mejores películas de animación de la historia) es la muestra viviente de por qué el trabajo de
+                    Miyazaki vivirá para
+                    siempre en la imaginación de sus afortunados espectadores.</p>
             </div>
         </div>
         <div class="actual-movie2">
@@ -76,15 +101,19 @@
                     <span>1997</span>
                     <span>133 mins</span>
                 </ul>
-                <p>Una de las películas más desafiantes en la obra de Hayao Miyazaki. El creativo se inspiró en una serie de leyendas
-                niponas para construir una historia que va más allá del bien y del mal, y cuya mayor relevancia radica en sus potentes
-                mensajes en defensa de la paz y el medio ambiente. A pesar de sus cualidades, la cinta nunca tuvo el reconocimiento de
-                otras películas del director, siendo la nominación al Annie como Mejor director su mayor mérito internacional.</p>
+                <p>Una de las películas más desafiantes en la obra de Hayao Miyazaki. El creativo se inspiró en una
+                    serie de leyendas
+                    niponas para construir una historia que va más allá del bien y del mal, y cuya mayor relevancia
+                    radica en sus potentes
+                    mensajes en defensa de la paz y el medio ambiente. A pesar de sus cualidades, la cinta nunca tuvo el
+                    reconocimiento de
+                    otras películas del director, siendo la nominación al Annie como Mejor director su mayor mérito
+                    internacional.</p>
             </div>
         </div>
         <div class="actual-movie1">
             <div class="img-movie">
-                <img src="./assets/totoro.png" alt="" >
+                <img src="./assets/totoro.png" alt="">
             </div>
             <div class="text-movie">
                 <h2>Mi vecino Totoro</h2>
@@ -92,10 +121,13 @@
                     <span>1988</span>
                     <span>86 mins</span>
                 </ul>
-                <p>El clásico por excelencia del Studio y, muy probablemente, la mejor película infantil de todos los tiempos. Nadie puede
-                resistirse al encanto de Totoro y su inmensa historia de amistad con las niñas Satsuki y Mei. La aparición final del
-                gatobus o el magistral uso de los paraguas (sí, de los paraguas) convierten a este clásico de solo hora y cuarto en la
-                mejor opción que se nos ocurre para pasar, eso, una hora y cuarto.</p>
+                <p>El clásico por excelencia del Studio y, muy probablemente, la mejor película infantil de todos los
+                    tiempos. Nadie puede
+                    resistirse al encanto de Totoro y su inmensa historia de amistad con las niñas Satsuki y Mei. La
+                    aparición final del
+                    gatobus o el magistral uso de los paraguas (sí, de los paraguas) convierten a este clásico de solo
+                    hora y cuarto en la
+                    mejor opción que se nos ocurre para pasar, eso, una hora y cuarto.</p>
             </div>
         </div>
         <div class="actual-movie2">
@@ -108,10 +140,14 @@
                     <span>1984</span>
                     <span>117 mins</span>
                 </ul>
-                <p>Miyazaki escribió el manga de 'Nausicäa en el valle del viento' con la intención de utilizar su éxito en papel para
-                conseguir financiación para su adaptación a la gran pantalla. El resultado sería un éxito que sentaría las bases
-                artísticas y económicas del hoy mítico Studio Ghibli. En un futuro distópico, una joven y valiente heroína deberá
-                enfrentarse a la injusticia de un mundo donde el culpable nunca es la naturaleza, sino el ser humano.</p>
+                <p>Miyazaki escribió el manga de 'Nausicäa en el valle del viento' con la intención de utilizar su éxito
+                    en papel para
+                    conseguir financiación para su adaptación a la gran pantalla. El resultado sería un éxito que
+                    sentaría las bases
+                    artísticas y económicas del hoy mítico Studio Ghibli. En un futuro distópico, una joven y valiente
+                    heroína deberá
+                    enfrentarse a la injusticia de un mundo donde el culpable nunca es la naturaleza, sino el ser
+                    humano.</p>
             </div>
         </div>
         <div class="actual-movie1">
@@ -124,11 +160,15 @@
                     <span>2004</span>
                     <span>119 mins</span>
                 </ul>
-                <p>Se trata de una historia llena de personajes coloridos e historias conmovedoras que se desarrollan en un contexto bélico
-                donde se mezclan la realidad y la fantasía. La historia se desarrolla en una región ficticia inspirada en la Europa de
-                principios del siglo XX. Hay un conflicto entre los reinos de la región y cada uno llama a sus magos y hechiceros para
-                combatir en esta guerra sin sentido. Sin duda, hablamos del Miyazaki más barroco en lo visual y narrativo, basándose en
-                la novela de Diana Wynne Jones.</p>
+                <p>Se trata de una historia llena de personajes coloridos e historias conmovedoras que se desarrollan en
+                    un contexto bélico
+                    donde se mezclan la realidad y la fantasía. La historia se desarrolla en una región ficticia
+                    inspirada en la Europa de
+                    principios del siglo XX. Hay un conflicto entre los reinos de la región y cada uno llama a sus magos
+                    y hechiceros para
+                    combatir en esta guerra sin sentido. Sin duda, hablamos del Miyazaki más barroco en lo visual y
+                    narrativo, basándose en
+                    la novela de Diana Wynne Jones.</p>
             </div>
         </div>
     </section>
@@ -136,11 +176,14 @@
         <h2>Subscríbete</h2>
         <p>Únete a nuestra newsletter mensual y ponte al día de las novedades</p>
         <div id="form-div">
-            <div id="email-div"></div><div id="checkbox-div"></div><div id="button-div"></div> 
+            <div id="email-div"></div>
+            <div id="checkbox-div"></div>
+            <div id="button-div"></div>
         </div>
     </section>
 </body>
 <footer>
     <p>&copy;2024 Universo Miyazaki, todos los derechos reservados.</p>
 </footer>
+
 </html>
