@@ -11,10 +11,13 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Englebert&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <script src="index.js" defer></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </head>
 
 <body>
-    <nav>
+    <nav id="principalNav">
         <ul>
             <li><a href="#header" class="nav-a">Intro</a></li>
             <li><a href="#introduction" class="nav-a">Biografía</a></li>
@@ -41,14 +44,15 @@
             <h1 class="title">Universo Miyazaki</h1>
         </header>
     </div>
-    
+
     <section id="introduction">
         <div class="img-hayao">
             <img id="hayao" src="assets/hayao_miyazaki.jpg" alt="">
         </div>
         <div class="text-hayao">
             <h2>Hayao Miyazaki</h2>
-            <p>Nacido el 5 de enero de 1941 en Tokio, Japón, es un <strong>reconocido director de cine y animación</strong>. Su infancia
+            <p>Nacido el 5 de enero de 1941 en Tokio, Japón, es un <strong>reconocido director de cine y
+                    animación</strong>. Su infancia
                 estuvo marcada por su amor por la naturaleza y la lectura, influencias que más tarde se reflejarían en
                 su trabajo
                 cinematográfico.</p>
@@ -63,13 +67,45 @@
                 Bajo su dirección, el Studio Ghibli produjo algunas de las películas más queridas y aclamadas en la
                 historia de la
                 animación, ganando reconocimiento tanto en Japón como en todo el mundo.</p>
-            <p>A lo largo de su carrera, Miyazaki ha recibido numerosos <strong>premios y reconocimientos</strong> por su contribución al
+            <p>A lo largo de su carrera, Miyazaki ha recibido numerosos <strong>premios y reconocimientos</strong> por
+                su contribución al
                 cine de
-    ideo         animación. Entre ellos varios premios <strong>Oscar, León de Oro, Oso de Oro, Bafta</strong> y muchos más.</p>
-            <p>Sin duda, ha dejado un <strong>legado</strong> duradero en la industria del cine y la animación; su pasión por contar
+                ideo animación. Entre ellos varios premios <strong>Oscar, León de Oro, Oso de Oro, Bafta</strong> y
+                muchos más.</p>
+            <p>Sin duda, ha dejado un <strong>legado</strong> duradero en la industria del cine y la animación; su
+                pasión por contar
                 historias
-                poderosas y su compromiso con la excelencia artística han dejado una <strong>huella imborrable</strong> en el cine
+                poderosas y su compromiso con la excelencia artística han dejado una <strong>huella imborrable</strong>
+                en el cine
                 contemporáneo.</p>
+        </div>
+    </section>
+    <section class="section_carrousel">
+        <div id="intro_carrousel">
+            <ul class='slider'>
+                <li class='item_carrousel'
+                    style="background-image: url('https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c446466-8e1e-49ac-b406-6449cffa518d_2143x1128.png')">
+                </li>
+                <li class='item_carrousel'
+                    style="background-image: url('https://platform.polygon.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/20008794/neverendingman2019_05_03_13h49m22s154.jpg?quality=90&strip=all&crop=21.875,0,56.25,100')">
+                </li>
+                <li class='item_carrousel'
+                    style="background-image: url('https://admin.itsnicethat.com/images/HGPEe3_He4TusC8bPPlIwYUHj5Q=/220233/format-webp%7Cwidth-1440/hayao-miyazaki-jessica-niebal-itsnicethat-features-18.jpg')">
+                </li>
+                <li class='item_carrousel'
+                    style="background-image: url('https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2016/11/hayao-miyazaki.jpg?tf=3840x')">
+                </li>
+                <li class='item_carrousel'
+                    style="background-image: url('https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1527040507397-I56TGYQODKQ4K7ZSOMOI/Hayao+Miyazaki103.jpg?format=1000w')">
+                </li>
+                <li class='item_carrousel'
+                    style="background-image: url('https://www.chrisschwaar.com/wp-content/uploads/2021/02/Miyazaki.jpg')">
+                </li>
+            </ul>
+            <nav class='nav_carrousel'>
+                <ion-icon class='btn prev' name="arrow-back-outline"></ion-icon>
+                <ion-icon class='btn next' name="arrow-forward-outline"></ion-icon>
+            </nav>
         </div>
     </section>
     <section id="movies">
@@ -168,7 +204,8 @@
                     <span>2004</span>
                     <span>119 mins</span>
                 </ul>
-                <p>Se tratautoplay muted loopa de una historia llena de personajes coloridos e historias conmovedoras que se desarrollan en
+                <p>Se tratautoplay muted loopa de una historia llena de personajes coloridos e historias conmovedoras
+                    que se desarrollan en
                     un contexto bélico
                     donde se mezclan la realidad y la fantasía. La historia se desarrolla en una región ficticia
                     inspirada en la Europa de
