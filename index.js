@@ -47,7 +47,7 @@ function createForm() {
     news.appendChild(form);
 }
 createForm();
-/* 
+
 function cookiesWindow() {
     setTimeout(function () {
         document.getElementById('cookieConsent').style.display = 'block';
@@ -67,7 +67,7 @@ function cookiesWindow() {
     };
     
 }
-cookiesWindow(); */
+cookiesWindow(); 
 
 
 
