@@ -2,13 +2,10 @@ body {
     margin: 0;
 }
 
-
-
-
 #principalNav {
     position: sticky;
-    top: 0px;
-    z-index: 2;
+    top: 0;
+    z-index: 3;
     background-color: white;
 }
 
@@ -18,7 +15,7 @@ nav ul {
     align-items: center;
     height: 115px;
     list-style-type: none;
-    margin: 0px;
+    margin: 0;
 }
 
 .nav-a {
@@ -66,7 +63,7 @@ nav ul {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(5px);
-    z-index: 3;
+    z-index: 4;
 }
 
 #cookieConsent {
