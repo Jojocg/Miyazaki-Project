@@ -65,7 +65,7 @@ function createForm() {
 }
 createForm();
 
-/* function cookiesWindow() {
+function cookiesWindow() {
     setTimeout(function () {
         document.getElementById('cookieConsent').style.display = 'block';
     }, 2000);
@@ -84,7 +84,7 @@ createForm();
     };
     
 }
-cookiesWindow();  */
+cookiesWindow();
 
 
 function activate(e) {
